@@ -7,11 +7,11 @@ import { ServicesPageComponent } from './services-page/services-page.component';
 import { OneServicePageComponent } from './one-service-page/one-service-page.component';
 
 const routes: Routes = [
-  { path:'/', component: HomePageComponent},
-  { path:'/contact', component: ContactPageComponent},
-  { path: '/mission', component: MissionPageComponent},
-  { path: '/services', component: ServicesPageComponent},
-  { path: '/services/:id', component: OneServicePageComponent},
+  { path:'', component: HomePageComponent},
+  { path:'contact', component: ContactPageComponent},
+  { path: 'missions', component: MissionPageComponent},
+  { path: 'services', component: ServicesPageComponent},
+  { path: 'services/:id', component: OneServicePageComponent},
 ];
 
 @NgModule({

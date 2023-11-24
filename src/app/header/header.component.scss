@@ -1,0 +1,21 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 45px 180px;
+    .logoHeader{
+        width: 100px;
+    }
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 25px;
+        a{
+            text-decoration: none;
+            color: #140a82;
+            font-weight: 600;
+            font-size: 17px;
+        }
+    }
+}

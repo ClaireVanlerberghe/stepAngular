@@ -1,0 +1,82 @@
+.carrouselPhoto {
+    img {
+        width: 1602px;
+        height: 553px;
+        object-fit: cover;
+        position: absolute;
+        margin-left: 100px;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+  
+      &.img1 {
+        animation: carrousel1 6s infinite alternate;
+      }
+  
+      &.img2 {
+        animation: carrousel2 6s infinite alternate; 
+      }
+    }
+  }
+
+  .carrouselTextes{
+    position: relative;
+    left: 100px;
+    width: 480px;
+    background-color: rgba(255, 95, 26, 0.8274509804);
+    color: white;
+    padding-left: 70px;
+    padding-top: 81px;
+    .titre{
+        font-weight: 500;
+        font-size: 36px;
+        letter-spacing: 2px;
+        width: 270px;
+        font-family: "Rubik", sans-serif;
+        line-height: 45px;
+    }
+    .texte{
+        font-size: 16px;
+        width: 302px;
+        letter-spacing: 1px;
+        line-height: 26px;
+        font-family: "Rubik", sans-serif;
+        padding-top: 30px;
+        padding-bottom: 32px;
+    }
+    .carrouselButton{
+        font-family: "Rubik", sans-serif;
+        color: white;
+        font-size: 20px;
+        background-color: rgba(255, 255, 255, 0);
+        border: 1px solid white;
+        padding: 13px 50px;
+        border-radius: 11px;
+        margin-bottom: 80px;
+    }
+}
+
+.carrouselLogo{
+    position: relative;
+    width: 350px;
+    left: 1354px;
+    top: -348px;
+}
+  
+  @keyframes carrousel1 {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes carrousel2 {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  

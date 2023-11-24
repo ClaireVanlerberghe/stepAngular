@@ -8,6 +8,9 @@ import { ContactPageComponent } from './contact-page/contact-page.component';
 import { MissionPageComponent } from './mission-page/mission-page.component';
 import { ServicesPageComponent } from './services-page/services-page.component';
 import { OneServicePageComponent } from './one-service-page/one-service-page.component';
+import { HeaderComponent } from './header/header.component';
+import { CarrouselComponent } from './carrousel/carrousel.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -16,11 +19,14 @@ import { OneServicePageComponent } from './one-service-page/one-service-page.com
     ContactPageComponent,
     MissionPageComponent,
     ServicesPageComponent,
-    OneServicePageComponent
+    OneServicePageComponent,
+    HeaderComponent,
+    CarrouselComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
