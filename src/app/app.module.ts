@@ -11,6 +11,8 @@ import { OneServicePageComponent } from './one-service-page/one-service-page.com
 import { HeaderComponent } from './header/header.component';
 import { CarrouselComponent } from './carrousel/carrousel.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { SubMenuComponent } from './sub-menu/sub-menu.component';
+import { FirstCardsComponent } from './first-cards/first-cards.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     ServicesPageComponent,
     OneServicePageComponent,
     HeaderComponent,
-    CarrouselComponent
+    CarrouselComponent,
+    SubMenuComponent,
+    FirstCardsComponent
   ],
   imports: [
     BrowserModule,

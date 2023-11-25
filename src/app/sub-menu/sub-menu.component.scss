@@ -1,0 +1,13 @@
+.subMenu{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 65px;
+    p{
+        font-size: 19px;
+        font-weight: 500;
+        color: #140a82;
+    }
+}
