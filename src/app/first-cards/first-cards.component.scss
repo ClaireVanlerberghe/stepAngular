@@ -1,0 +1,12 @@
+.firstCard{
+    display: flex;
+    justify-content: center;
+    gap: 95px;
+    margin-top: 30px;
+    .logoCard{
+        background-color: #140a82;
+        width: 645px;
+        padding: 15px 32px;
+        border-radius: 15px;
+    }
+}

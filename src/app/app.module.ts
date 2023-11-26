@@ -13,6 +13,7 @@ import { CarrouselComponent } from './carrousel/carrousel.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SubMenuComponent } from './sub-menu/sub-menu.component';
 import { FirstCardsComponent } from './first-cards/first-cards.component';
+import { WhatIsStepComponent } from './what-is-step/what-is-step.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { FirstCardsComponent } from './first-cards/first-cards.component';
     HeaderComponent,
     CarrouselComponent,
     SubMenuComponent,
-    FirstCardsComponent
+    FirstCardsComponent,
+    WhatIsStepComponent
   ],
   imports: [
     BrowserModule,
